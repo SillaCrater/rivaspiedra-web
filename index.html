@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rivas Piedra Ingeniería SpA | Inteligencia Operacional y Analítica Predictiva</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script> 
 </head>
 <body>
 
 <header class="topbar">
     <div class="container nav">
         <div class="logo">
-            <span class="logo-mark">RP</span>
+            <img src="assets/logo-rivaspiedra.png" alt="Logo Rivas Piedra Ingeniería SpA" class="company-logo" style="height: 32px; margin-right: 8px;"> 
             <span class="logo-text">Rivas Piedra Ingeniería</span>
         </div>
         <nav class="nav-links">
@@ -46,10 +47,10 @@
                 <div class="highlight-card">
                     <h2>Nuestra Diferencia Competitiva</h2>
                     <ul>
-                        <li>**Análisis Predictivo** (Machine Learning)</li>
-                        <li>**Precisión Milimétrica** y Datos Validados</li>
-                        <li>**Integración Simplificada** (PLC, SCADA, ERP)</li>
-                        <li>**Consultoría Estratégica** basada en Data</li>
+                        <li>Análisis Predictivo (Machine Learning)</li>
+                        <li>Precisión Milimétrica y Datos Validados</li>
+                        <li>Integración Simplificada (PLC, SCADA, ERP)</li>
+                        <li>Consultoría Estratégica basada en Data</li>
                     </ul>
                 </div>
             </div>
@@ -97,29 +98,56 @@
 
     <section class="section section-alt" id="servicios-detalle">
         <div class="container">
+
+            <div id="servicio-sensores" class="detail-block">
+                <h3>Adquisición de Datos y Sensórica de Precisión</h3>
+                <p>
+                    Implementamos soluciones de medición confiable en campo, orientadas a la operación y mantención:
+                </p>
+                <ul>
+                    <li>Medición de caudal en canales, tuberías y sistemas de riego.</li>
+                    <li>Nivel de estanques, piscinas, tranques y estanques de proceso.</li>
+                    <li>Temperatura, presión y otras variables de proceso.</li>
+                    <li>Selección de tecnología adecuada según condición de proceso y presupuesto.</li>
+                </ul>
+            </div>
+
+            <div id="servicio-iot" class="detail-block">
+                <h3>Transmisión Robusta y Edge Computing</h3>
+                <p>
+                    Llevamos los datos desde el punto de medición hasta donde se toman decisiones con mínima latencia:
+                </p>
+                <ul>
+                    <li>Gateways IoT, RTU, radios, 4G y redes industriales.</li>
+                    <li>Integración con PLC, SCADA, historizadores y plataformas en la nube.</li>
+                    <li>Alarmas y notificaciones según umbrales definidos por operación.</li>
+                    <li>Diseño de arquitectura simple, robusta y mantenible.</li>
+                </ul>
+            </div>
+            
             <div id="servicio-datos" class="detail-block">
                 <h3>Analítica Predictiva y Dashboards de Gestión</h3>
                 <p>
-                    Transformamos datos crudos en información clara para operación, gestión de activos y gerencia, incorporando la **Inteligencia Artificial para anticipar eventos**:
+                    Vamos más allá de la visualización: **aplicamos Modelos de Machine Learning (ML)** a sus datos limpios para generar valor. Transformamos grandes volúmenes de datos crudos en **alertas predictivas**, permitiendo la **anticipación de fallas** y la optimización continua.
                 </p>
                 <ul>
-                    <li>**Modelos Predictivos (IA):** Detección temprana de fallas en equipos críticos o anomalías en procesos.</li>
-                    <li>Tratamiento y **Limpieza de Datos** (validación, detección de *outliers*).</li>
-                    <li>Dashboards web con tendencias, comparaciones y **Alertas Inteligentes** en tiempo real.</li>
-                    <li>Informes periódicos de comportamiento de caudales, consumos y variables clave.</li>
+                    <li>**Modelos de Predicción de Fallas:** Algoritmos de IA que identifican patrones y alertan sobre posibles fallas en equipos críticos antes de que ocurran, minimizando el tiempo muerto.</li>
+                    <li>**Tratamiento y Validación de Datos:** Implementación de filtros y procesos de limpieza para garantizar la **integridad, precisión y coherencia** de toda la data de sus procesos.</li>
+                    <li>**Dashboards Inteligentes:** Paneles web dinámicos diseñados para cada perfil (Operación, Mantención, Gerencia), enfocados en KPIs accionables y el seguimiento del ROI.</li>
+                    <li>**Análisis de Anomalías en Tiempo Real:** Detección instantánea de comportamientos inusuales o desviaciones fuera de los umbrales de seguridad.</li>
                 </ul>
             </div>
 
             <div id="servicio-consultoria" class="detail-block">
                 <h3>Consultoría, Asesoría y Optimización Estratégica</h3>
                 <p>
-                    Aseguramos que la inversión en sensórica se traduzca en **rentabilidad tangible** y eficiencia:
+                    Su inversión en sensórica solo genera retorno si se traduce en cambios operativos. Nuestro servicio experto convierte la data limpia en **estrategias tangibles** para la optimización de procesos y el cumplimiento regulatorio.
                 </p>
                 <ul>
-                    <li>Análisis experto y **recomendaciones específicas basadas en la data limpia** recolectada.</li>
-                    <li>Asesoría para **Optimización de Procesos** (hídricos, energéticos, productivos).</li>
-                    <li>Alineamiento de KPIs (Indicadores Clave de Rendimiento) con la data disponible.</li>
-                    <li>Soporte continuo y mejoras basadas en la experiencia de uso.</li>
+                    <li>**Recomendaciones Basadas en Optimización:** Asesoría específica sobre cómo ajustar procesos (hídricos, energéticos o productivos) utilizando la información generada por nuestros modelos.</li>
+                    <li>**Auditoría de Infraestructura y Sensores:** Evaluación de la arquitectura de medición actual para asegurar la precisión y robustez de los datos.</li>
+                    <li>**Acompañamiento en Cumplimiento Normativo:** Generación de informes y métricas específicos para cumplir con regulaciones ambientales o sectoriales.</li>
+                    <li>**Planificación de ROI Tecnológico:** Determinamos dónde aplicar la tecnología para obtener el máximo Retorno de Inversión en el corto y mediano plazo.</li>
                 </ul>
             </div>
             
@@ -136,32 +164,6 @@
                 </ul>
             </div>
             
-             <div id="servicio-sensores" class="detail-block">
-                <h3>Adquisición de Datos y Sensórica de Precisión</h3>
-                <p>
-                    Implementamos soluciones de medición confiable en campo, orientadas a la operación y mantención:
-                </p>
-                <ul>
-                    <li>Medición de caudal en canales, tuberías y sistemas de riego.</li>
-                    <li>Nivel de estanques, piscinas, tranques y estanques de proceso.</li>
-                    <li>Temperatura, presión y otras variables de proceso.</li>
-                    <li>Selección de tecnología adecuada según condición de proceso y presupuesto.</li>
-                </ul>
-            </div>
-
-             <div id="servicio-iot" class="detail-block">
-                <h3>Transmisión Robusta y Edge Computing</h3>
-                <p>
-                    Llevamos los datos desde el punto de medición hasta donde se toman decisiones con mínima latencia:
-                </p>
-                <ul>
-                    <li>Gateways IoT, RTU, radios, 4G y redes industriales.</li>
-                    <li>Integración con PLC, SCADA, historizadores y plataformas en la nube.</li>
-                    <li>Alarmas y notificaciones según umbrales definidos por operación.</li>
-                    <li>Diseño de arquitectura simple, robusta y mantenible.</li>
-                </ul>
-            </div>
-            
         </div>
     </section>
 
@@ -172,30 +174,33 @@
                 Adaptamos nuestra tecnología y modelos de IA para resolver desafíos críticos y aumentar la rentabilidad en industrias clave.
             </p>
             <div class="sectors">
+                
                 <div class="card sector-card">
                     <h3>Minería: Integridad de Datos y Predictibilidad</h3>
                     <p>
-                        **Implementamos el manejo completo de datos limpios y coherentes** para la gestión de activos, el control de procesos y la seguridad estructural.
+                        En operaciones mineras, el **Manejo Completo de Datos Limpios** no es un lujo, es una necesidad de seguridad y eficiencia. Implementamos sistemas que garantizan la coherencia de la data crítica (relaves, chancado, molienda) para una toma de decisiones sin incertidumbre.
                     </p>
                     <ul>
-                        <li>**Mantenimiento Predictivo** en equipos de chancado y molienda.</li>
-                        <li>**Monitoreo Estructural** y de seguridad en tranques de relaves (Nivel, vibraciones).</li>
-                        <li>Dashboards para Sala de Control que evitan paralizaciones.</li>
-                        <li>**Analítica de Datos Limpios** para optimización de procesos auxiliares.</li>
+                        <li>**Monitoreo Estructural y Seguridad:** Sensores de precisión para monitoreo continuo de tranques de relaves, detectando movimientos o niveles anómalos de forma instantánea.</li>
+                        <li>**Mantenimiento Predictivo:** Uso de modelos de IA para **predecir fallas** en equipos de alto valor (molinos, bombas), minimizando los tiempos de inactividad no planificados.</li>
+                        <li>**Optimización de Procesos:** Medición en línea de variables de flotación y procesos auxiliares para la mejora constante de la recuperación y el rendimiento energético.</li>
+                        <li>**Integración de Sala de Control:** Dashboards coherentes y rápidos que integran todas las variables críticas.</li>
                     </ul>
                 </div>
+                
                 <div class="card sector-card">
                     <h3>Gestión Hídrica & Caudales Críticos</h3>
                     <p>
-                        Soluciones especializadas en la medición remota y el análisis predictivo de flujos para **control de pérdidas y cumplimiento normativo.**
+                        La medición de caudal con **precisión y baja latencia** es vital para el control de pérdidas y la gestión legal del recurso hídrico. Nuestras soluciones de telemetría y Edge Computing resuelven el desafío de medir en zonas remotas y hostiles.
                     </p>
                     <ul>
-                        <li>**Detección de Fugas/Anomalías** con algoritmos de IA en tiempo real.</li>
-                        <li>Medición precisa de caudal en canales, tuberías y matrices de riego.</li>
-                        <li>Reportes automáticos para Juntas de Vigilancia y autoridades regulatorias.</li>
-                        <li>Control de distribución y consumo por sector.</li>
+                        <li>**Detección de Fugas con Algoritmos de IA:** Implementación de modelos que analizan el comportamiento del flujo para identificar y alertar sobre pérdidas o usos anómalos inmediatamente.</li>
+                        <li>**Cumplimiento Regulatorio Simplificado:** Generación automática de reportes validados para la Dirección General de Aguas (DGA) o Juntas de Vigilancia.</li>
+                        <li>**Control de Distribución por Sectores:** Medición remota del consumo para optimizar la distribución en matrices, zonas de riego o clientes.</li>
+                        <li>**Monitoreo de Nivel y Calidad:** Control de embalses, pozos y tranques, asegurando el inventario hídrico en tiempo real.</li>
                     </ul>
                 </div>
+                
                 <div class="card sector-card">
                     <h3>Agricultura de Precisión y Sustentabilidad</h3>
                     <p>
@@ -208,6 +213,7 @@
                         <li>Reportes de uso eficiente del recurso hídrico para certificaciones.</li>
                     </ul>
                 </div>
+                
                 <div class="card sector-card">
                     <h3>Inmobiliarias y Edificios Inteligentes</h3>
                     <p>
@@ -276,6 +282,5 @@
     <p>© 2025 Rivas Piedra Ingeniería SpA — Concepción, Chile</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
