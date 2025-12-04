@@ -53,14 +53,13 @@ body {
 /* ESTILO DEL LOGO DE TEXTO (RP) */
 /* ======================================= */
 .logo-rp {
-    font-size: 1.5rem; /* Hace las letras RP más grandes */
-    font-weight: 900; /* Extra bold */
-    color: var(--accent); /* Color Teal */
-    border: 2px solid var(--accent); /* Un borde sutil para enmarcar */
-    padding: 2px 6px;
-    border-radius: 4px;
+    font-size: 1.5rem; 
+    font-weight: 900; 
+    color: #1ab0a5; /* Usa el código directo del Teal */
+    border: 2px solid #1ab0a5; /* Usa el código directo del Teal */
+    padding: 2px 6px; 
+    border-radius: 4px; 
     margin-right: 8px;
-    /* Opcional: Un fondo muy sutil para destacar el RP */
     background-color: rgba(26, 176, 165, 0.1); 
 }
 
