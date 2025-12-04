@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f9fb;
+  color: #0b1f33;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background: #0b1f33;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 10px;
+  opacity: 0.85;
+}
+
+/* Sections */
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Button */
+a.button {
+  display: inline-block;
+  margin-top: 20px;
+  background: #1ab0a5;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  background: #0b1f33;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
