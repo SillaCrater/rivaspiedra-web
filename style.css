@@ -51,11 +51,11 @@ body {
 }
 
 /* ======================================= */
-/* CLASE DE TEXTO DESTACADO (CORRECCIÓN) */
+/* CLASE DE TEXTO DESTACADO */
 /* ======================================= */
 .destacado {
     font-weight: 700; 
-    color: var(--accent); /* Usamos el color de acento para mayor impacto y coherencia */
+    color: var(--accent); 
 }
 
 /* ======================================= */
@@ -101,12 +101,20 @@ body {
 }
 
 /* ======================================= */
-/* HERO (Se mantiene oscuro para un alto impacto) */
+/* HERO (AHORA CON IMAGEN DE FONDO) */
 /* ======================================= */
 .hero {
+    /* Degradado base (se mantiene por si la imagen no carga) */
     background: linear-gradient(135deg, var(--primary) 0%, #294c5e 40%, #30586e 100%);
     color: #ffffff;
     padding: 72px 0 56px;
+
+    /* 🚨 INTEGRACIÓN DE IMAGEN DE FONDO 🚨 */
+    background-image: linear-gradient(rgba(30, 56, 69, 0.8), rgba(30, 56, 69, 0.8)), 
+                      url('activos/images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-grid {
