@@ -1,52 +1,279 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rivas Piedra Ingeniería SpA</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rivas Piedra Ingeniería SpA | Inteligencia Operacional y Analítica Predictiva</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <h1>Rivas Piedra Ingeniería SpA</h1>
-  <p>Soluciones en sensores, IoT, cámaras e instrumentación para industria, minería y sector forestal.</p>
+<header class="topbar">
+    <div class="container nav">
+        <div class="logo">
+            <span class="logo-mark">RP</span>
+            <span class="logo-text">Rivas Piedra Ingeniería</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#soluciones">Soluciones Sectoriales</a>
+            <a href="#servicios">Servicios Core</a>
+            <a href="#metodo">Metodología</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
 </header>
 
-<section class="section">
-  <h2>Servicios</h2>
-  <div class="services">
-    <div class="card">
-      <h3>Sensores Industriales</h3>
-      <p>Instalación, integración y mantención de sensores para monitoreo de procesos críticos.</p>
-    </div>
-    <div class="card">
-      <h3>Internet de las Cosas (IoT)</h3>
-      <p>Telemetría, gateways, comunicación remota y dashboards de datos en tiempo real.</p>
-    </div>
-    <div class="card">
-      <h3>Cámaras de Seguridad (CCTV)</h3>
-      <p>Instalación de cámaras IP, NVR, acceso remoto y soluciones para galpones, plantas y parcelas.</p>
-    </div>
-    <div class="card">
-      <h3>Instrumentación Industrial</h3>
-      <p>Montaje, calibración y configuración de instrumentos para procesos industriales.</p>
-    </div>
-  </div>
-</section>
+<main id="inicio">
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>
+                    Inteligencia Operacional 4.0: De la Medición Instantánea a la Predictibilidad con IA
+                </h1>
+                <p>
+                    Reduzca la incertidumbre y maximice el ROI. Diseñamos e implementamos soluciones de **IoT robustas, Edge Computing y Modelos Predictivos basados en IA** para transformar sus datos operativos en **decisiones estratégicas en tiempo real.**
+                </p>
+                <div class="hero-actions">
+                    <a href="#contacto" class="button primary">Optimizar mis Procesos Ahora</a>
+                    <a href="#soluciones" class="button ghost">Ver Casos de Éxito por Sector</a>
+                </div>
+                <p class="hero-note">
+                    Nuestra ventaja: Velocidad de respuesta, precisión milimétrica e integración simplificada con sistemas existentes.
+                </p>
+            </div>
+            <div class="hero-highlight">
+                <div class="highlight-card">
+                    <h2>Nuestra Diferencia Competitiva</h2>
+                    <ul>
+                        <li>**Análisis Predictivo** (Machine Learning)</li>
+                        <li>**Precisión Milimétrica** y Datos Validados</li>
+                        <li>**Integración Simplificada** (PLC, SCADA, ERP)</li>
+                        <li>**Consultoría Estratégica** basada en Data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section">
-  <h2>Quiénes Somos</h2>
-  <p>
-    Somos una empresa de ingeniería ubicada en Concepción, dedicada a integrar tecnología
-    y soluciones robustas para mejorar la visibilidad y seguridad operacional de nuestros
-    clientes. Realizamos proyectos llave en mano, desde el diseño hasta la instalación y puesta en marcha.
-  </p>
-  <a href="mailto:contacto@rivaspiedraingenieria.cl" class="button">Contacto</a>
-</section>
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Servicios Core: La Cadena de Valor de sus Datos</h2>
+            <p class="section-intro">
+                Acompañamos todo el ciclo: desde la instalación de sensores Edge hasta la **recomendación de optimización**, garantizando visibilidad completa y limpia de sus procesos.
+            </p>
+            <div class="services">
+                <div class="card service-card" data-target="#servicio-sensores">
+                    <h3>Adquisición de Datos y Sensórica de Precisión</h3>
+                    <p>
+                        Selección e instalación de sensores de nivel, caudal, presión y temperatura en terreno, priorizando la **confiabilidad** en entornos críticos.
+                    </p>
+                    <span class="card-link">Ver tecnologías Edge →</span>
+                </div>
+                <div class="card service-card" data-target="#servicio-iot">
+                    <h3>Transmisión Robusta y Edge Computing</h3>
+                    <p>
+                        Diseño de arquitecturas IoT robustas y uso de **Edge Computing** para el procesamiento de datos en terreno, asegurando **mínima latencia** e integridad.
+                    </p>
+                    <span class="card-link">Ver Arquitectura IoT →</span>
+                </div>
+                <div class="card service-card" data-target="#servicio-datos">
+                    <h3>Analítica Predictiva y Dashboards IA</h3>
+                    <p>
+                        Transformamos datos crudos en **Modelos Predictivos (IA)** y visualizaciones gerenciales claras para la **gestión de activos** y la toma de decisiones anticipada.
+                    </p>
+                    <span class="card-link">Ver modelos IA y Consultoría →</span>
+                </div>
+                <div class="card service-card" data-target="#servicio-consultoria">
+                    <h3>Consultoría y Recomendación Basada en Datos</h3>
+                    <p>
+                        Más allá del dashboard: Asesoría experta para la **optimización de procesos y el cumplimiento normativo**, utilizando el análisis limpio de sus datos.
+                    </p>
+                    <span class="card-link">Ver nuestro método de Asesoría →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="servicios-detalle">
+        <div class="container">
+            <div id="servicio-datos" class="detail-block">
+                <h3>Analítica Predictiva y Dashboards de Gestión</h3>
+                <p>
+                    Transformamos datos crudos en información clara para operación, gestión de activos y gerencia, incorporando la **Inteligencia Artificial para anticipar eventos**:
+                </p>
+                <ul>
+                    <li>**Modelos Predictivos (IA):** Detección temprana de fallas en equipos críticos o anomalías en procesos.</li>
+                    <li>Tratamiento y **Limpieza de Datos** (validación, detección de *outliers*).</li>
+                    <li>Dashboards web con tendencias, comparaciones y **Alertas Inteligentes** en tiempo real.</li>
+                    <li>Informes periódicos de comportamiento de caudales, consumos y variables clave.</li>
+                </ul>
+            </div>
+
+            <div id="servicio-consultoria" class="detail-block">
+                <h3>Consultoría, Asesoría y Optimización Estratégica</h3>
+                <p>
+                    Aseguramos que la inversión en sensórica se traduzca en **rentabilidad tangible** y eficiencia:
+                </p>
+                <ul>
+                    <li>Análisis experto y **recomendaciones específicas basadas en la data limpia** recolectada.</li>
+                    <li>Asesoría para **Optimización de Procesos** (hídricos, energéticos, productivos).</li>
+                    <li>Alineamiento de KPIs (Indicadores Clave de Rendimiento) con la data disponible.</li>
+                    <li>Soporte continuo y mejoras basadas en la experiencia de uso.</li>
+                </ul>
+            </div>
+            
+            <div id="servicio-camaras" class="detail-block">
+                <h3>Cámaras y Monitoreo Estratégico</h3>
+                <p>
+                    Complementamos la medición con visión de seguridad y respaldo:
+                </p>
+                <ul>
+                    <li>Diseño e instalación de sistemas CCTV IP.</li>
+                    <li>Integración con sistemas de control y plataformas de monitoreo.</li>
+                    <li>Soluciones para inmobiliarias, bodegas, parcelas y plantas industriales.</li>
+                    <li>Acceso remoto seguro para supervisión 24/7.</li>
+                </ul>
+            </div>
+            
+             <div id="servicio-sensores" class="detail-block">
+                <h3>Adquisición de Datos y Sensórica de Precisión</h3>
+                <p>
+                    Implementamos soluciones de medición confiable en campo, orientadas a la operación y mantención:
+                </p>
+                <ul>
+                    <li>Medición de caudal en canales, tuberías y sistemas de riego.</li>
+                    <li>Nivel de estanques, piscinas, tranques y estanques de proceso.</li>
+                    <li>Temperatura, presión y otras variables de proceso.</li>
+                    <li>Selección de tecnología adecuada según condición de proceso y presupuesto.</li>
+                </ul>
+            </div>
+
+             <div id="servicio-iot" class="detail-block">
+                <h3>Transmisión Robusta y Edge Computing</h3>
+                <p>
+                    Llevamos los datos desde el punto de medición hasta donde se toman decisiones con mínima latencia:
+                </p>
+                <ul>
+                    <li>Gateways IoT, RTU, radios, 4G y redes industriales.</li>
+                    <li>Integración con PLC, SCADA, historizadores y plataformas en la nube.</li>
+                    <li>Alarmas y notificaciones según umbrales definidos por operación.</li>
+                    <li>Diseño de arquitectura simple, robusta y mantenible.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="soluciones" class="section">
+        <div class="container">
+            <h2>Soluciones a la Medida: Inteligencia por Sector</h2>
+            <p class="section-intro">
+                Adaptamos nuestra tecnología y modelos de IA para resolver desafíos críticos y aumentar la rentabilidad en industrias clave.
+            </p>
+            <div class="sectors">
+                <div class="card sector-card">
+                    <h3>Minería: Integridad de Datos y Predictibilidad</h3>
+                    <p>
+                        **Implementamos el manejo completo de datos limpios y coherentes** para la gestión de activos, el control de procesos y la seguridad estructural.
+                    </p>
+                    <ul>
+                        <li>**Mantenimiento Predictivo** en equipos de chancado y molienda.</li>
+                        <li>**Monitoreo Estructural** y de seguridad en tranques de relaves (Nivel, vibraciones).</li>
+                        <li>Dashboards para Sala de Control que evitan paralizaciones.</li>
+                        <li>**Analítica de Datos Limpios** para optimización de procesos auxiliares.</li>
+                    </ul>
+                </div>
+                <div class="card sector-card">
+                    <h3>Gestión Hídrica & Caudales Críticos</h3>
+                    <p>
+                        Soluciones especializadas en la medición remota y el análisis predictivo de flujos para **control de pérdidas y cumplimiento normativo.**
+                    </p>
+                    <ul>
+                        <li>**Detección de Fugas/Anomalías** con algoritmos de IA en tiempo real.</li>
+                        <li>Medición precisa de caudal en canales, tuberías y matrices de riego.</li>
+                        <li>Reportes automáticos para Juntas de Vigilancia y autoridades regulatorias.</li>
+                        <li>Control de distribución y consumo por sector.</li>
+                    </ul>
+                </div>
+                <div class="card sector-card">
+                    <h3>Agricultura de Precisión y Sustentabilidad</h3>
+                    <p>
+                        Sensores ambientales y de suelo integrados con modelos de riego para **maximizar el rendimiento del cultivo** y la eficiencia hídrica.
+                    </p>
+                    <ul>
+                        <li>**Optimización de Riego:** Dosificación exacta basada en data en tiempo real.</li>
+                        <li>Nivel en balsas de acumulación y control de consumo.</li>
+                        <li>Monitoreo de clima y condiciones del suelo.</li>
+                        <li>Reportes de uso eficiente del recurso hídrico para certificaciones.</li>
+                    </ul>
+                </div>
+                <div class="card sector-card">
+                    <h3>Inmobiliarias y Edificios Inteligentes</h3>
+                    <p>
+                        Monitoreo de activos críticos, seguridad (CCTV) y **gestión de consumos energéticos** para reducir costos de operación y mejorar la seguridad.
+                    </p>
+                    <ul>
+                        <li>Medición de consumos (agua, energía) por edificio o unidad.</li>
+                        <li>Alertas tempranas por fallas en salas de máquinas y bombas.</li>
+                        <li>Monitoreo de accesos y seguridad perimetral (CCTV IP).</li>
+                        <li>Informes para administración enfocados en **reducción de gastos comunes.**</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="metodo" class="section section-alt">
+        <div class="container">
+            <h2>Metodología: 4 Pasos Hacia la Predictibilidad</h2>
+            <div class="steps">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <h3>Diagnóstico y Levantamiento Estratégico</h3>
+                    <p>Visitamos tu operación, entendemos el proceso y definimos las **variables críticas que impactan directamente el ROI.**</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <h3>Diseño de Arquitectura y Tecnología</h3>
+                    <p>Proponemos la integración de sensores, Edge Computing y arquitectura de datos alineada a tu seguridad y presupuesto.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <h3>Implementación y Puesta en Marcha</h3>
+                    <p>Instalamos, calibramos y dejamos el sistema operando, con capacitación para la **rápida adopción** del equipo.</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <h3>Analítica, Optimización y Soporte</h3>
+                    <p>Analizamos datos, ajustamos modelos predictivos y proporcionamos **recomendaciones de mejora continua**.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container contact">
+            <div>
+                <h2>¿Listo para tomar decisiones con certeza?</h2>
+                <p>
+                    Cuéntanos qué proceso crítico necesitas monitorear (caudales, nivel, consumo, seguridad, etc.)
+                    y te propondremos una **solución con ROI medible** que se adapte a tu operación.
+                </p>
+                <ul class="contact-list">
+                    <li><strong>Correo Directo:</strong> <a href="mailto:contacto@rivaspiedraingenieria.cl">contacto@rivaspiedraingenieria.cl</a></li>
+                    <li><strong>Área de Servicio:</strong> Concepción, Región del Biobío y todo Chile.</li>
+                </ul>
+                <p class="contact-note">
+                    Agenda una llamada para mostrarte **proyectos de IA y medición de caudal** ya implementados en tu sector.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
 
 <footer>
-  <p>© 2025 Rivas Piedra Ingeniería SpA — Concepción, Chile</p>
+    <p>© 2025 Rivas Piedra Ingeniería SpA — Concepción, Chile</p>
 </footer>
 
 <script src="script.js"></script>
